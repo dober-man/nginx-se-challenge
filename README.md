@@ -113,8 +113,8 @@ ls nginx-plus/etc/ssl/nginx/nginx-*
 nginx-repo.crt              nginx-repo.key
 
 # Downloaded docker images and build
-docker-compose pull
-docker-compose build --no-cache
+docker compose pull
+docker compose build --no-cache
 ```
 
 -----------------------
