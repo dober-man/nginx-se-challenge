@@ -126,14 +126,14 @@ docker compose build --no-cache
 Run `docker-compose` in the foreground so we can see real-time log output to the terminal:
 
 ```bash
-docker-compose up
+docker compose up
 ```
 
 Or, if you made changes to any of the Docker containers or NGINX configurations, run:
 
 ```bash
 # Recreate containers and start demo
-docker-compose up --force-recreate
+docker compose up --force-recreate
 ```
 
 **Confirm** the containers are running. You should see three containers running:
